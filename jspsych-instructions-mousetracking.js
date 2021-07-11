@@ -95,7 +95,7 @@ jsPsych.plugins['instructions-mousetracking'] = (function() {
     function show_current_page() {
     
     	var buttonboxstyle = '<style id="jspsych-survey-likert-css">';
-    buttonboxstyle += ".jspsych-survey-mousebox { display:block; width: 20px; height: 20px; position: absolute; background-color: black; top:85%; left:50%; margin-top: -10px; margin-left: -10px; }"
+    buttonboxstyle += ".jspsych-survey-mousebox { display:block; width: 20px; height: 20px; position: absolute; background-color: black; top:95%; left:50%; margin-top: -10px; margin-left: -10px; }"
     buttonboxstyle += '</style>';
     
       display_element.innerHTML = trial.pages[current_page];
