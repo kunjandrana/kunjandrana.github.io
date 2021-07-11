@@ -83,7 +83,7 @@ jsPsych.plugins['survey-mousetracking'] = (function() {
       ".jspsych-survey-likert-opts:last-of-type { border-bottom: 0; }"+
       ".jspsych-survey-likert-opts li { display:inline-block; /*width:19%;*/ text-align:center; vertical-align: top; }"+
       ".jspsych-survey-likert-opts li input[type=radio] { display:block; position:relative; top:0; left:50%; margin-left:-6px; }"+
-      ".jspsych-survey-mousebox { display:block; width: 20px; height: 20px; position: absolute; background-color: black; top:85%; left:50%; margin-top: -10px; margin-left: -10px; }"
+      ".jspsych-survey-mousebox { display:block; width: 20px; height: 20px; position: absolute; background-color: black; top:95%; left:50%; margin-top: -10px; margin-left: -10px; }"
     html += '</style>';
 
     // show preamble text
