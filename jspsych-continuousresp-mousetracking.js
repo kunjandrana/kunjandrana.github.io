@@ -136,6 +136,7 @@ jsPsych.plugins['continuousresp-mousetracking'] = (function() {
     function getMousePosition(e) {
     	var xpos = e.clientX;
     	var ypos = e.clientY;
+    	var tt = (new Date()).getTime() - startTime;
     	display_element.querySelector('#jspsych-survey-likert-form')
     	
     	if (ypos >= rlbtop && ypos <= (rlbtop+40) && xpos >= rlbleft && xpos <= (rlbleft+500)) {
@@ -144,7 +145,7 @@ jsPsych.plugins['continuousresp-mousetracking'] = (function() {
     	}
     	
     	
-    	mousedata.push({x: xpos, y: ypos});
+    	mousedata.push({x: xpos, y: ypos, t: tt});
     	//console.log("("+xpos+","+ypos+")");
     }
     
